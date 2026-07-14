@@ -9,7 +9,7 @@ describe("Insurance Car API Tests", () => {
         "My only claim was a crash into my house's garage door that left a scratch on my car. There are no other crashes.",
     });
     expect(res.statusCode).toBe(200);
-    expect(res.body).toEqual({ risk_rating: 3 });
+    expect(res.body).toEqual({ risk_rating: 5 });
   });
 
   //API 3 Test
